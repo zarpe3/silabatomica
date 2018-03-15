@@ -1,8 +1,8 @@
 .container h2.main-logo {
 	background-color: rgba(0,0,0,0.5);
-	margin: 5% 1% 0px 1% !important;
-	padding-top: 7%;
-	padding-bottom: 7%;
+	margin: 1em !important;
+	height: 70%;
+	padding-top: 7em;
 }
 .home-upcoming-event {
 	padding-top:80px;
@@ -10,9 +10,6 @@
 	background-image:url(../images/guitarra.png);
 }
 @media(max-width: 480px) {
-	.container h2.main-logo {
-		margin-top: 25% !important;
-	}
 	.home-upcoming-event {
 		padding-bottom:0px;
 	}
